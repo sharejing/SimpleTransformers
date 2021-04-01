@@ -1,5 +1,5 @@
 # SimpleTransformers
-Simple Transformers三种任务（分类、命名实体识别、语言模型微调）的代码样例
+Simple Transformers三种任务（分类、命名实体识别、语言模型微调）的代码样例，**可以切换多种预训练模型**。
 
 ## 1. 安装环境
 * 参考Simple Transformers的原始github库自行安装，请参考：<https://github.com/ThilinaRajapakse/simpletransformers>
@@ -29,7 +29,10 @@ Simple Transformers三种任务（分类、命名实体识别、语言模型微�
 |preprocess.py|数据预处理方法|
 |runs&wandb|上传到wandb上，用来可视化训练状况的|
 
-
+## 4. 其他
+* 似乎想不起来写啥了，就这样吧~
+* 哦，对了，每个任务我都上传了完整的公开数据集，可以直接训练~
+* 最后，真的感谢这些大佬，写了这么棒的工具。另外，才疏学浅，有错误或者不完善的地方，请批评指正！
 
 
 
