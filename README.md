@@ -3,7 +3,7 @@ Simple Transformers三种任务（分类、命名实体识别、语言模型微�
 
 ## 1. 安装环境
 * 参考Simple Transformers的原始github库自行安装，请参考：<https://github.com/ThilinaRajapakse/simpletransformers>
-* 我将环境打包成docker镜像了，可以直接拉取(需要自己提前装好docker哦~)，拉取方式：docker pull ymjing/simpletransformers
+* 我将环境打包成docker镜像了，可以直接拉取(需要自己提前装好docker哦~)，拉取方式：<https://hub.docker.com/r/ymjing/simpletransformers> docker pull ymjing/simpletransformers
 
 ## 2. 代码介绍
 * Classification和Named_Entity_Recognition的代码架构一样，所以只介绍一个~
