@@ -37,6 +37,16 @@ Simple Transformers四种任务（分类、命名实体识别、机器阅读理�
 * 似乎想不起来写啥了，就这样吧~
 * 哦，对了，分类和命名实体任务都有完整的公开数据集，可以直接训练~
 * 最后，真的感谢这些大佬，写了这么棒的工具。另外，才疏学浅，有错误或者不完善的地方，请批评指正！
-
+* 后记：以下是我的环境
+|toolkits|version|
+|-|-|
+|python|3.7.11|
+|torch|1.7.1+cu101|
+|transformers|4.12.3|
+|simpletransformers|0.63.0|
+|numpy|1.19.2|
+|scikit-learn|0.20.3|
+|seqeval|1.2.2|
+|wandb|0.12.6|
 
 
