@@ -2,8 +2,7 @@
 Simple Transformers四种任务（分类、命名实体识别、机器阅读理解、语言模型微调）的代码样例，**可以切换多种预训练模型**。
 
 ## Note
-在实际的生产环境中，simpletransformers可以快速训练模型，但单条测试非常慢，通过测试发现，使用transformers来调用微调后的模型速度非常快。
-在每一个任务的文件夹中，test_transformers.py即为simpletransformers微调模型，transformers调用模型。
+在实际的生产环境中，simpletransformers可以快速训练模型，但单条测试非常慢，通过测试发现，使用transformers来调用微调后的模型速度非常快。在每一个任务的文件夹中，test_transformers.py即为simpletransformers微调模型，transformers调用模型。如果在微调分类模型过程中，环境报如下错误：ImportError: dlopen: cannot load any more object with static TLS with torch built with gcc 5.5。请pip install scikit-learn==0.20.3 (python3.7)
 
 ## 1. 安装环境
 * 参考Simple Transformers的原始github库自行安装，请参考：<https://github.com/ThilinaRajapakse/simpletransformers>
