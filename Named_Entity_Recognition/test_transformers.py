@@ -65,3 +65,8 @@ query = "钴属于哪个行业？在线医疗属于哪个部门？哪个组织�
 print(predict_entity(query))
 
 # [{'mention': '钴', 'category': '行业', 'position': [0, 1]}, {'mention': '在线医疗', 'category': '行业', 'position': [8, 12]}, {'mention': '小米8', 'category': '产品', 'position': [28, 31]}]
+
+# transformers的调用方法：普通调用和pipeline调用
+# 请参考：https://huggingface.co/transformers/task_summary.html
+
+
