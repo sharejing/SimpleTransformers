@@ -1,6 +1,10 @@
 # SimpleTransformers
 Simple Transformers四种任务（分类、命名实体识别、机器阅读理解、语言模型微调）的代码样例，**可以切换多种预训练模型**。
 
+## Note
+在实际的生成环境中，simpletransformers可以快速训练模型，但单条测试非常慢，通过测试发现，使用transformers来调用微调后的模型速度非常块。
+每一个任务中的，test_transformers.py即为simpletransformers微调模型，transformers调用模型。
+
 ## 1. 安装环境
 * 参考Simple Transformers的原始github库自行安装，请参考：<https://github.com/ThilinaRajapakse/simpletransformers>
 * 我将环境打包成docker镜像了，可以直接拉取(需要自己提前装好docker哦~)，拉取方式：<https://hub.docker.com/r/ymjing/simpletransformers> docker pull ymjing/simpletransformers
@@ -16,6 +20,7 @@ Simple Transformers四种任务（分类、命名实体识别、机器阅读理�
 |preprocess.py|数据预处理方法|
 |run.sh|模型的运行脚本|
 |test.py|模型的单条测试方法|
+|test_transformers.py|transformers的测试方法，速度快|
 |train.py|模型训练程序|
 
 ## 3. 模型输出
